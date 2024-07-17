@@ -1,0 +1,15 @@
+app:
+  name: testfine-wheres-teddy-app
+  namespace: testfine
+  cluster: .apps.wearedevs.rl97.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/WindTurbineInc/testfine-wheres-teddy
+  org: WindTurbineInc
+  name: testfine-wheres-teddy
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: testfine/wheres-teddy-app
+  tag: latest
